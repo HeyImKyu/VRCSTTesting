@@ -1,10 +1,10 @@
 name: "Deploy VRCSTT"
 
 on:
-  workflow_dispatch:
   pull_request:
     types:
       - closed
+  workflow_dispatch:
       
 env:
   PROJECT_PATH: VRCSTT.csproj
