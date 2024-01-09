@@ -1,3 +1,4 @@
+using AutoUpdaterDotNET;
 using NAudio.CoreAudioApi;
 using OscCore;
 using System;
@@ -39,6 +40,8 @@ namespace VRCSTT.ViewModel
 
         internal VRCSTTViewModel()
         {
+            AutoUpdater.Start("https://raw.githubusercontent.com/HeyImKyu/VRCSTTesting/AutoUpdater/AutoUpdateInformation.xml");
+
             this.homeViewModel = new HomeViewModel();
             this.settingsViewModel = new SettingsViewModel();
             this.CurrentView = homeViewModel;
