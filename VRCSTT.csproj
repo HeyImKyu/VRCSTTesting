@@ -15,7 +15,7 @@
     <OldToolsVersion>2.0</OldToolsVersion>
     <DebugType>embedded</DebugType>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
-    <AssemblyVersion>36.0.0</AssemblyVersion>
+    <AssemblyVersion>37.0.0</AssemblyVersion>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="AssemblyInfo.cs~RF1c001da8.TMP" />
